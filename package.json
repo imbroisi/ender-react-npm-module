@@ -1,0 +1,32 @@
+{
+  "name": "ender-react-npm-module",
+  "version": "1.0.0",
+  "description": "react npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbroisi/ender-react-npm-module"
+  },
+  "author": "Ender",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imbroisi/ender-react-npm-module/issues"
+  },
+  "homepage": "https://github.com/imbroisi/ender-react-npm-module#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  }
+}
